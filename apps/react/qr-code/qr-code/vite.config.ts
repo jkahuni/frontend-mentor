@@ -26,11 +26,12 @@ export default defineConfig({
 
   build: {
     outDir: '../../../../dist/apps/react/qr-code/qr-code',
+    assetsDir: 'assets',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
-    },
+    }
   },
 
   test: {
