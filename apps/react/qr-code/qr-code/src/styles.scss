@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@use "styles/css_root_styles";
+@use "styles/css_reset";
+
+html {
+    font-family: var(--ff-primary);
+}
+
+body {
+    background: var(--clr-accent);
+    font: inherit;
+    height: 100vh;
+    height: 100dvh;
+}
+
+#root {
+    min-height: 100%;
+    display: grid;
+    place-content: center;
+    margin-inline: 1.5rem;
+}
+
+
+
+.border-radius-1 {
+    border-radius: 1rem;
+}
+
+.color-primary {
+    color: var(--clr-primary);
+}
+
+.color-secondary {
+    color: var(--clr-secondary);
+}
+
+.color-accent {
+    color: var(--clr-accent);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.fw-regular {
+    font-weight: var(--fw-regular);
+}

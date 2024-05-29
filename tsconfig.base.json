@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "paths": {
+      "@frontend-mentor/qr-code-ui": ["libs/qr-code/ui/src/index.ts"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

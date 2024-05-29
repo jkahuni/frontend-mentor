@@ -1,0 +1,27 @@
+.container {
+    overflow: hidden;
+    padding: 1rem;
+    background: var(--clr-neutral-100);
+    max-width: 330px;
+
+    .text-content {
+        margin-block: 2rem;
+        padding-inline: 1rem;
+        text-align: center;
+        display: grid;
+        gap: 1.5rem;
+
+        > * {
+            // outline: 1px solid red;
+            
+        }
+
+        h1 {
+            font-size: var(--fs-medium, 1.5rem);
+        }
+
+        p {
+            font-size: var(--fs-small);
+        }
+    }
+}
